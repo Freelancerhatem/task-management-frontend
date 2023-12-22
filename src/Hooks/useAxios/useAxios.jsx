@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosLoader = axios.create({
-    baseURL:'http://localhost:5000'
+    baseURL:'https://task-management-backend-orpin.vercel.app'
 })
 const useAxios = () => {
     return axiosLoader
